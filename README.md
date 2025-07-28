@@ -1,5 +1,38 @@
-# MinitorSignInTool v.1 
+# MonitorSignInTool v.1
 
-Monitors user sign-ins and triggers email alerts when sign-in attempts or successful sign-ins are detected in Entra ID sign in logs.
+**MonitorSignInTool** is a lightweight, PowerShell-based monitoring solution for monitoring sign-ins to Microsoft tenants.
 
-Read Setup MonitorSignInTool.pdf for setup information. 
+---
+
+## 🚀 Features
+
+- ✅ Monitors sign-ins and sign-in attempts and sign-ins for selected accounts via Microsoft Graph API
+- 🔒 Uses **certificate-based authentication** for enhanced security
+- 📧 Sends detailed **email alerts** to defined recipients when activity is detected
+- 💻 Can run on any Windows machine using **Task Scheduler** 
+- 🆓 100% free and open-source – ideal for SMBs and low-budget environments
+
+---
+
+## 📌 Use Cases
+
+- Monitoring **Break-Glass / Emergency Admin** accounts
+- Detecting unauthorized or unexpected sign-ins on **high-privileged roles**
+- Enhancing visibility for **SMBs without E5 licenses or Log Analytic Workspace**
+
+---
+
+## ⚙️ Prerequisites
+
+- A Microsoft Entra ID tenant
+- A registered **Enterprise App** with:
+  - Certificate-based authentication (recommended)
+  - API permissions: `AuditLog.Read.All` (Application)
+   - PowerShell 7+ 
+- Email account with at least Exchange Online P1 license
+- Windows endpoint 
+
+---
+
+## 🔧 For Setup Instructions read pdf file in .zip folder
+ 
