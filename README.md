@@ -35,5 +35,5 @@
 
 ---
 
-## 🔧 For Setup Instructions read pdf file in .zip folder
+## 🔧 For Setup Instructions read .pdf file in main .zip folder
  
