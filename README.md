@@ -2,7 +2,9 @@
 
 **MonitorSignInTool** is a lightweight, PowerShell-based monitoring solution for monitoring sign-ins to Microsoft tenants.
 
----
+<img width="771" height="528" alt="sucessful" src="https://github.com/user-attachments/assets/3ca45ec6-4dd2-4ddf-bdbd-8aef7ead363b" />
+
+<img width="760" height="521" alt="failed" src="https://github.com/user-attachments/assets/3421d1a5-9cd6-48dc-a7d5-783bb70b828e" />
 
 ## 🚀 Features
 
