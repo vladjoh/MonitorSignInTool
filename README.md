@@ -25,9 +25,8 @@
 ## ⚙️ Prerequisites
 
 - A Microsoft Entra ID tenant
-- A registered **Enterprise App** with:
-  - Certificate-based authentication (recommended)
-  - API permissions: `AuditLog.Read.All` (Application)
+- A registered **application** with:
+  - Certificate-based authentication
    - PowerShell 7+ 
 - Email account with at least Exchange Online P1 license
 - Windows endpoint 
